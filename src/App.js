@@ -25,7 +25,7 @@ const App = () => {
 }
 const EnhancedApp = withRouter(App);
 const AppRouter = props => (
-  <Router>
+  <Router basename={window.location.pathname || ''}>
     <EnhancedApp {...props} />
   </Router>
 )
