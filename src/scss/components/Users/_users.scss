@@ -1,0 +1,39 @@
+.userWrapper {
+  padding: 2%;
+  align-items: center;
+  
+  table {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td,
+  table th {
+    border: 1px solid $background-02;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  table tr {
+    padding: 10px;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: $background-03;
+  }
+  
+  table tr:hover {
+    background-color: $background-02;
+    cursor: pointer;
+  }
+  
+  table th, tfoot td {
+    padding: 12px 12px;
+    text-align: center;
+    background-color: $brand-01;
+    font-family: $font-01;
+    color: $text-05;
+  }
+}
+
