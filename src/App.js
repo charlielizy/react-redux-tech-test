@@ -1,7 +1,7 @@
 import React from 'react'
 import { Provider } from 'react-redux'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   withRouter
@@ -17,15 +17,15 @@ const App = () => {
   return (
     <Provider store={store}>
       <Switch>
-        <Route path='/' exact={true} component={Users} />
-        <Route path='/posts/:userId' exact={true} component={Posts} />
+        <Route path='/' exact component={Users} />
+        <Route path='/posts/:userId' exact component={Posts} />
       </Switch>
     </Provider>
   )
 }
 const EnhancedApp = withRouter(App);
 const AppRouter = props => (
-  <Router basename={window.location.pathname || ''}>
+  <Router>
     <EnhancedApp {...props} />
   </Router>
 )
