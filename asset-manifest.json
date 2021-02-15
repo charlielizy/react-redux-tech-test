@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/react-redux-tech-test/static/css/main.2443409d.chunk.css",
-    "main.js": "/react-redux-tech-test/static/js/main.b5ad2481.chunk.js",
-    "main.js.map": "/react-redux-tech-test/static/js/main.b5ad2481.chunk.js.map",
+    "main.js": "/react-redux-tech-test/static/js/main.f4e7d7d7.chunk.js",
+    "main.js.map": "/react-redux-tech-test/static/js/main.f4e7d7d7.chunk.js.map",
     "runtime-main.js": "/react-redux-tech-test/static/js/runtime-main.7ff6acec.js",
     "runtime-main.js.map": "/react-redux-tech-test/static/js/runtime-main.7ff6acec.js.map",
-    "static/js/2.150dfe5d.chunk.js": "/react-redux-tech-test/static/js/2.150dfe5d.chunk.js",
-    "static/js/2.150dfe5d.chunk.js.map": "/react-redux-tech-test/static/js/2.150dfe5d.chunk.js.map",
+    "static/js/2.5c1215e0.chunk.js": "/react-redux-tech-test/static/js/2.5c1215e0.chunk.js",
+    "static/js/2.5c1215e0.chunk.js.map": "/react-redux-tech-test/static/js/2.5c1215e0.chunk.js.map",
     "index.html": "/react-redux-tech-test/index.html",
     "static/css/main.2443409d.chunk.css.map": "/react-redux-tech-test/static/css/main.2443409d.chunk.css.map",
-    "static/js/2.150dfe5d.chunk.js.LICENSE.txt": "/react-redux-tech-test/static/js/2.150dfe5d.chunk.js.LICENSE.txt"
+    "static/js/2.5c1215e0.chunk.js.LICENSE.txt": "/react-redux-tech-test/static/js/2.5c1215e0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7ff6acec.js",
-    "static/js/2.150dfe5d.chunk.js",
+    "static/js/2.5c1215e0.chunk.js",
     "static/css/main.2443409d.chunk.css",
-    "static/js/main.b5ad2481.chunk.js"
+    "static/js/main.f4e7d7d7.chunk.js"
   ]
 }
