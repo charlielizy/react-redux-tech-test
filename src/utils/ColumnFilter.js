@@ -11,6 +11,7 @@ export const ColumnFilter = ({ column }) => {
     <span>
       Search:{' '}
       <input
+        className='column-search'
         value={value || ''}
         onChange={e => {
           setValue(e.target.value);

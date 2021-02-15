@@ -3,7 +3,7 @@
   align-items: center;
   
   table {
-    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-family: $font-01;
     border-collapse: collapse;
     width: 100%;
   }
@@ -34,6 +34,17 @@
     background-color: $brand-01;
     font-family: $font-01;
     color: $text-05;
+  }
+}
+.column-search {
+  outline: none;
+  border-radius: 6px;
+  background: $ui-02;
+  border: 1px solid $input-border-01;
+  transition: border .3s ease;
+  &:focus {
+    border-color: $input-border-focus;
+    background: $ui-01;
   }
 }
 

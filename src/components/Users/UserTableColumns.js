@@ -10,6 +10,7 @@ export const USER_TABLE_COLUMNS = [
     Header: 'Name',
     Footer: 'Name',
     accessor: 'name',
+    disableSortBy: true,
     Cell: row => <div style={{ textAlign: "left" }}>{row.value}</div>
   },
   {

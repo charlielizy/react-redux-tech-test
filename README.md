@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was deployed to public url [http://charlielizy.github.io/react-redux-tech-test](http://charlielizy.github.io/react-redux-tech-test)
+This project was deployed to public url [https://charlielizy.github.io/react-redux-tech-test](https://charlielizy.github.io/react-redux-tech-test)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
