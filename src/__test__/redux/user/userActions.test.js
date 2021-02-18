@@ -9,7 +9,7 @@ const middlewares = [thunk]
 const mockStore = configureMockStore(middlewares)
 const store = mockStore({});
 
-describe('action creation', () => {
+describe('user action creation', () => {
   it('should create an action to fetch request', () => {
     const expectedAction = {
       type: types.FETCH_USERS_REQUEST,

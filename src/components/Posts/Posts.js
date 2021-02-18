@@ -37,7 +37,7 @@ const Posts = () => {
     <div className='postWrapper'>
       { stateData.user.users.length !== 0 ? <div className='postHeader'>{user.name}'s Posts</div> : null}
       { stateData.post.posts.length === 0 ? <LinearProgress /> :
-        <table {...getTableProps()}>
+        <table {...getTableProps()} data-testid='postTable'>
           <thead>
             {headerGroups.map(headerGroup => (
               <tr {...headerGroup.getHeaderGroupProps()}>
